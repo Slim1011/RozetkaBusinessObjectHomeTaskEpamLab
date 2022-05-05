@@ -1,0 +1,18 @@
+2022-05-05 14:34:24.023 +03:00 [INF] Log started
+2022-05-05 14:34:24.023 +03:00 [INF] Log started
+2022-05-05 14:34:24.023 +03:00 [INF] Log started
+2022-05-05 14:34:24.927 +03:00 [INF] driver started
+2022-05-05 14:34:24.929 +03:00 [INF] driver started
+2022-05-05 14:34:25.095 +03:00 [INF] going to url
+2022-05-05 14:34:25.095 +03:00 [INF] going to url
+2022-05-05 14:34:25.687 +03:00 [INF] driver started
+2022-05-05 14:34:25.825 +03:00 [INF] going to url
+2022-05-05 14:34:27.069 +03:00 [INF] Test started.
+2022-05-05 14:34:27.070 +03:00 [INF] Test parameters: category = laptop, brand = razer, type of sort = От дорогих к дешевым
+2022-05-05 14:34:28.414 +03:00 [INF] Test started.
+2022-05-05 14:34:28.415 +03:00 [INF] Test parameters: category = Мышь, brand = rapoo, type of sort = От дорогих к дешевым
+2022-05-05 14:34:28.447 +03:00 [INF] Test started.
+2022-05-05 14:34:28.447 +03:00 [INF] Test parameters: category = телефон, brand = Nokia, type of sort = От дорогих к дешевым
+2022-05-05 14:34:39.741 +03:00 [INF] Test succesfull.
+2022-05-05 14:34:39.742 +03:00 [INF] closing driver
+2022-05-05 14:34:39.924 +03:00 [INF] Log closed

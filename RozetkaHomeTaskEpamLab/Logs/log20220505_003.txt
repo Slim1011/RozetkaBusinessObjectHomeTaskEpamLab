@@ -1,0 +1,6 @@
+2022-05-05 14:42:55.687 +03:00 [INF] Log started
+2022-05-05 14:42:57.027 +03:00 [INF] driver started
+2022-05-05 14:42:57.128 +03:00 [INF] Test succesfull.
+2022-05-05 14:42:57.129 +03:00 [INF] closing driver
+2022-05-05 14:42:57.171 +03:00 [INF] going to url
+2022-05-05 14:42:57.378 +03:00 [INF] Log closed

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Filters>
+	<FiltersList>
+		
+	<Filter>
+	<TypeOfGood>laptop</TypeOfGood>
+	<Brand>razer</Brand>
+	<TypeOfSort>От дорогих к дешевым</TypeOfSort>
+	<PriceLimit>120000</PriceLimit>	
+	</Filter>
+	
+	<Filter>
+	<TypeOfGood>телефон</TypeOfGood>
+	<Brand>Nokia</Brand>
+	<TypeOfSort>От дорогих к дешевым</TypeOfSort>
+	<PriceLimit>8000</PriceLimit>	
+	</Filter>
+		
+	<Filter>
+	<TypeOfGood>Мышь</TypeOfGood>
+	<Brand>rapoo</Brand>
+	<TypeOfSort>От дорогих к дешевым</TypeOfSort>
+	<PriceLimit>3000</PriceLimit>	
+	</Filter>
+		
+	<Filter>
+	<TypeOfGood>клавиатура</TypeOfGood>
+	<Brand>Genius</Brand>
+	<TypeOfSort>Акционные</TypeOfSort>
+	<PriceLimit>500</PriceLimit>	
+	</Filter>
+		
+	<Filter>
+	<TypeOfGood>Геймерские кресла</TypeOfGood>
+	<Brand>DXRacer</Brand>
+	<TypeOfSort>Новинки</TypeOfSort>
+	<PriceLimit>12000</PriceLimit>	
+	</Filter>
+	</FiltersList>-->
+	
+</Filters>

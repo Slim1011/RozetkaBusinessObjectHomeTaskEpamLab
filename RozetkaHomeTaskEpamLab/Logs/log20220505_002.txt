@@ -1,0 +1,34 @@
+2022-05-05 14:34:42.702 +03:00 [INF] Log started
+2022-05-05 14:34:43.086 +03:00 [INF] Test started.
+2022-05-05 14:34:43.086 +03:00 [INF] Test parameters: category = клавиатура, brand = Genius, type of sort = Акционные
+2022-05-05 14:34:43.138 +03:00 [INF] Test succesfull.
+2022-05-05 14:34:43.139 +03:00 [INF] closing driver
+2022-05-05 14:34:43.981 +03:00 [INF] driver started
+2022-05-05 14:34:43.991 +03:00 [INF] Log closed
+2022-05-05 14:34:44.109 +03:00 [INF] going to url
+2022-05-05 14:34:45.440 +03:00 [INF] Test started.
+2022-05-05 14:34:45.440 +03:00 [INF] Test parameters: category = Геймерские кресла, brand = DXRacer, type of sort = Новинки
+2022-05-05 14:34:54.446 +03:00 [INF] Test succesfull.
+2022-05-05 14:34:54.448 +03:00 [INF] closing driver
+2022-05-05 14:34:54.585 +03:00 [INF] Log closed
+2022-05-05 14:34:55.537 +03:00 [INF] Test succesfull.
+2022-05-05 14:34:55.537 +03:00 [INF] closing driver
+2022-05-05 14:34:55.651 +03:00 [INF] Log closed
+2022-05-05 14:42:39.772 +03:00 [INF] Log started
+2022-05-05 14:42:39.772 +03:00 [INF] Log started
+2022-05-05 14:42:39.772 +03:00 [INF] Log started
+2022-05-05 14:42:41.004 +03:00 [INF] driver started
+2022-05-05 14:42:41.004 +03:00 [INF] driver started
+2022-05-05 14:42:41.140 +03:00 [INF] driver started
+2022-05-05 14:42:41.161 +03:00 [INF] going to url
+2022-05-05 14:42:41.161 +03:00 [INF] going to url
+2022-05-05 14:42:41.264 +03:00 [INF] going to url
+2022-05-05 14:42:44.145 +03:00 [INF] Test started.
+2022-05-05 14:42:44.146 +03:00 [INF] Test parameters: category = Мышь, brand = rapoo, type of sort = От дорогих к дешевым
+2022-05-05 14:42:44.233 +03:00 [INF] Test started.
+2022-05-05 14:42:44.233 +03:00 [INF] Test parameters: category = телефон, brand = Nokia, type of sort = От дорогих к дешевым
+2022-05-05 14:42:44.239 +03:00 [INF] Test started.
+2022-05-05 14:42:44.240 +03:00 [INF] Test parameters: category = laptop, brand = razer, type of sort = От дорогих к дешевым
+2022-05-05 14:42:55.543 +03:00 [INF] Test succesfull.
+2022-05-05 14:42:55.544 +03:00 [INF] closing driver
+2022-05-05 14:42:55.682 +03:00 [INF] Log closed
