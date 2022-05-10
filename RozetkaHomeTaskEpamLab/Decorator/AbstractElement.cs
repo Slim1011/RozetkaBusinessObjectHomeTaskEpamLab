@@ -34,7 +34,7 @@ namespace RozetkaHomeTaskEpamLab.Decorator
         }
         public string TagName => throw new NotImplementedException();
 
-        public string Text => throw new NotImplementedException();
+        public virtual string Text => element.Text;
 
         public bool Enabled => throw new NotImplementedException();
 

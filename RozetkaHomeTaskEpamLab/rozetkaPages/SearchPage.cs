@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using RozetkaHomeTaskEpamLab.Decorator;
 using SeleniumExtras.PageObjects;
 using System;
 using System.Collections.Generic;
@@ -23,19 +24,24 @@ namespace RozetkaHomeTaskEpamLab.rozetkaPages
         private IWebElement _checkBox;
 
         [FindsBy(How = How.XPath, Using = "//button[contains(@class,'buy-button')]")]
-        private IWebElement _firstGood;
+        private IWebElement _firstProduct;
 
         [FindsBy(How = How.XPath, Using = "//rz-cart//button[contains(@class, 'header__button ng-star-inserted')]")]
         private IWebElement _cartButton;
 
-        
+
+        DecoratedSendKeys sendKeysToBrandInput => new DecoratedSendKeys(_searchBrandInput);
+        DecoratedClick clickCheckBox => new DecoratedClick(_checkBox);
+        DecoratedClick clickFirstProduct => new DecoratedClick(_firstProduct);
+        DecoratedClick clickCartButton => new DecoratedClick(_cartButton);
+
         public IWebElement GetSearchBrandInput()
         {
             return _searchBrandInput;
         }
         public void SendKeysToSearchBrandInput(string brand)
         {
-            _searchBrandInput.SendKeys(brand);
+            sendKeysToBrandInput.SendKeys(brand);
             
         }
 
@@ -45,22 +51,23 @@ namespace RozetkaHomeTaskEpamLab.rozetkaPages
         }
         public void ClickCheckBox()
         {
-            Thread.Sleep(1000);
-            _checkBox.Click();
+           
+            Thread.Sleep(1500);
+            clickCheckBox.Click();
         }
 
         public IWebElement GetFirstGood()
         {
-            return _firstGood;
+            return _firstProduct;
         }
-        public void ChooseFirstGood()
+        public void ChooseFirstProduct()
         {
-            _firstGood.Click();
+            clickFirstProduct.Click();
         }
 
         public void ClickCartButton()
         {
-            _cartButton.Click();
+            clickCartButton.Click();
         }
 
     }

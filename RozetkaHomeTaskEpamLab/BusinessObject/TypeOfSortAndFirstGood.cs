@@ -23,7 +23,7 @@ namespace RozetkaHomeTaskEpamLab.BusinessObject
             SearchPage searchPage = new SearchPage(driver);
             searchPage.checkSortOfPriceFromDropdownMenu(sortType);
             searchPage.WaitElementIsEnable(timeToWait, searchPage.GetFirstGood());
-            searchPage.ChooseFirstGood();
+            searchPage.ChooseFirstProduct();
             searchPage.ClickCartButton();
         }
     }

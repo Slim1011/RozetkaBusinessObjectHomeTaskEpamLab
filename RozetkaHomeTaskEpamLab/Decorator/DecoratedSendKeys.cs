@@ -7,17 +7,19 @@ using System.Threading.Tasks;
 
 namespace RozetkaHomeTaskEpamLab.Decorator
 {
-    public class ClearFieldAndSendKeys : AbstractElement
+    public class DecoratedSendKeys : AbstractElement
     {
-        public ClearFieldAndSendKeys(IWebElement element) : base(element)
+       
+        public DecoratedSendKeys(IWebElement element) : base(element)
         {
-
+          
         }
 
         public override void SendKeys(string text)
         {
             element.Clear();
-            base.SendKeys(text);
+            element.SendKeys(text);
+            Console.WriteLine($"Start searching for: {text}");
         }
     }
 }

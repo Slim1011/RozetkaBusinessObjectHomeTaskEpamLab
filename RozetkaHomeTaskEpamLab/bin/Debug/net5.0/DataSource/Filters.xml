@@ -12,8 +12,8 @@
 	<Filter>
 	<TypeOfGood>телефон</TypeOfGood>
 	<Brand>Nokia</Brand>
-	<TypeOfSort>От дорогих к дешевым</TypeOfSort>
-	<PriceLimit>8000</PriceLimit>	
+	<TypeOfSort>От дешевых к дорогим</TypeOfSort>
+	<PriceLimit>500</PriceLimit>	
 	</Filter>
 		
 	<Filter>

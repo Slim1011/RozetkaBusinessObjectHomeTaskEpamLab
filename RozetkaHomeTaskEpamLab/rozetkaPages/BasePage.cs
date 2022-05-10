@@ -7,20 +7,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
+
 
 
 namespace RozetkaHomeTaskEpamLab.rozetkaPages
 {
     public class BasePage
     {
-        public IWebDriver driver;
+        protected IWebDriver driver;
 
         [FindsBy(How = How.XPath, Using = "//select[@_ngcontent-rz-client-c184]")]
         private IWebElement _sortDropdownMenu;
-
-
-
 
         public void WaitForPageLoad(int timeToWait)
         {

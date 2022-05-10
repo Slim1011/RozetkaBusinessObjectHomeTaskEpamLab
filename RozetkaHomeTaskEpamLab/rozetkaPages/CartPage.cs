@@ -1,10 +1,11 @@
 ﻿using OpenQA.Selenium;
+using RozetkaHomeTaskEpamLab.Decorator;
 using SeleniumExtras.PageObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
 
 namespace RozetkaHomeTaskEpamLab.rozetkaPages
 {
@@ -18,6 +19,7 @@ namespace RozetkaHomeTaskEpamLab.rozetkaPages
         [FindsBy(How = How.XPath, Using = "//div[@class='cart-receipt__sum-price']/span")]
         private IWebElement _priceWindow;
 
+        DecoratedGetText safeGetPrice => new DecoratedGetText(_priceWindow);
         public IWebElement GetPriceWindow()
         {
             return _priceWindow; 
@@ -25,7 +27,7 @@ namespace RozetkaHomeTaskEpamLab.rozetkaPages
 
         public int GetTextFromPriceWindow()
         {
-           return int.Parse(_priceWindow.Text);
+           return int.Parse(safeGetPrice.SafeGetText());
         }
         
     }
